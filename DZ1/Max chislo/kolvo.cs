@@ -6,10 +6,10 @@ namespace ConsoleApplication1
             static void Main(string[] args)
             {
                 int[] mas5 = { 1, 1, 2, 2, 2, 3, 3, 3, 3 };
-                int[] res = new int[3];//в этот массив результат выведется (в данном случае должно быть 234)
+                int[] res = new int[3];
  
                 for (int i = 0; i < res.Length; i++)
-                    res[i] = 0;//Обнуляем значения массива
+                    res[i] = 0;
  
                 for (int i = 0; i < mas5.Length; i++)
                 {
